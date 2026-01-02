@@ -1,42 +1,42 @@
-# Non-interactive User – anita
+# Non-interactive User – rose
 **Platform:**  
 KodeKloud Engineer Practice Labs
 
 ---
 
 ## Objective
-Create a non-interactive user `anita` on App Server 3 to meet backup agent tool specifications.
+Create a non-interactive user `rose` on App Server 1 to meet backup agent tool specifications.
 
 ---
 
 ## Requirements
-- Username: `anita`  
+- Username: `rose`  
 - Shell: Non-interactive (`/sbin/nologin`)  
-- Server: App Server 3 (`stapp03`)  
+- Server: App Server 1 (`stapp01`)  
 
 ---
 
 ## Steps Performed
-1. Logged in to App Server 3 via SSH:
+1. Logged in to App Server 1 via SSH:
 
 ```bash
-ssh <username>@stapp03
-Created user anita with a non-interactive shell:
+ssh <username>@stapp01
+Created user rose with a non-interactive shell:
 
 bash
 Copy code
-sudo useradd -s /sbin/nologin anita
+sudo useradd -s /sbin/nologin rose
 Verified the user was created:
 
 bash
 Copy code
-getent passwd anita
+getent passwd rose
 Outcome
-User anita successfully created on App Server 3.
+User rose successfully created on App Server 1.
 
 Shell set to /sbin/nologin for non-interactive access.
 
-User verified in the system via getent passwd anita.
+User verified in the system via getent passwd rose.
 
 Key Learnings
 How to create a Linux user with a non-interactive shell.
