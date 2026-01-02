@@ -1,0 +1,75 @@
+# Azure SSH Key Pair: datacenter-kp
+
+**Objective:** Create an RSA SSH key pair for Azure VM authentication.
+
+**Requirements:**
+
+- Key pair name: `datacenter-kp`
+- Key type: RSA
+
+**Commands:**
+
+```bash
+# Generate RSA SSH key pair
+ssh-keygen -t rsa -b 2048 -f ~/.ssh/datacenter-kp -N ""
+
+# Display the public key
+cat ~/.ssh/datacenter-kp.pub
+
+---
+
+## **2️⃣ File: `azure-create-vm.md`**
+
+```markdown
+# Azure Virtual Machine: xfusion-vm
+
+**Objective:** Deploy an Ubuntu 22.04 LTS VM in Azure with a 30GB Standard HDD and SSH access.
+
+**Requirements:**
+
+1. Use the existing resource group.
+2. VM name: `xfusion-vm`
+3. Region: West US
+4. OS image: Ubuntu 22.04 LTS
+5. VM size: Standard_B1s
+6. Attach a default NSG allowing inbound SSH (port 22)
+7. OS disk: 30 GB, Standard HDD
+8. Rest of the settings remain default
+
+**Azure CLI Commands:**
+
+```bash
+# Log in to Azure
+az login
+
+# Create the VM
+az vm create \
+  --resource-group <RESOURCE_GROUP> \
+  --name xfusion-vm \
+  --image UbuntuLTS \
+  --size Standard_B1s \
+  --admin-username azureuser \
+  --ssh-key-values ~/.ssh/datacenter-kp.pub \
+  --nsg-rule SSH \
+  --os-disk-size-gb 30 \
+  --storage-sku Standard_LRS \
+  --location westus
+
+# SSH into the VM
+ssh -i ~/.ssh/datacenter-kp azureuser@<PUBLIC_IP>
+
+---
+
+### ✅ **Instructions to add to your repo**
+
+```bash
+cd ~/kodekloud-labs
+
+# Add the new files
+git add azure-ssh-key-pair.md azure-create-vm.md
+
+# Commit
+git commit -m "Add Azure labs: SSH key pair (datacenter-kp) and VM creation (xfusion-vm)"
+
+# Push
+git push origin main
