@@ -9,7 +9,7 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 
 ### Linux
 - [Non-interactive User – anita](create_anita.md)
-- [Create temporary user 'yousuf' – App Server 3](create_users.sh)
+- [Create temporary user 'yousuf' – App Server 3](linux-yousuf-temp-user.md)
 - [Linux Git Installation on Storage Server](linux-git-setup.md)
 
 ### Azure
