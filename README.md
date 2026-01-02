@@ -13,5 +13,5 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 - [Linux Git Installation on Storage Server](linux-git-setup)
 
 ### Azure
-- [SSH Key Pair (datacenter-kp)](azure-ssh-key-pair)
+- [SSH Key Pair (datacenter-kp)](azure-ssh-key-pair.md)
 - [Create Azure VM (xfusion-vm)](azure-ssh-key-pair)
