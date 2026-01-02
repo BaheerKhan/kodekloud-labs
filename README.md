@@ -5,7 +5,7 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 
 ### AWS
 - [AWS Security Group – devops-sg](aws-security-group)
-- [AWS EC2 Key Pair – nautilus-kp](aws-key-pair)
+- [AWS EC2 Key Pair – nautilus-kp](aws-key-pair.md)
 
 ### Linux
 - [Non-interactive User – rose](linux-rose-noninteractive-user.md)
