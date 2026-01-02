@@ -1,48 +1,35 @@
-# Non-interactive User – rose
+# Non-interactive User – anita
 **Platform:**  
 KodeKloud Engineer Practice Labs
 
 ---
 
 ## Objective
-Create a non-interactive user `rose` on App Server 1 to meet backup agent tool specifications.
+Create a non-interactive user `anita` on App Server 3 to meet backup agent tool specifications.
 
 ---
 
 ## Requirements
-- Username: `rose`  
-- Shell: Non-interactive (`/sbin/nologin`)  
-- Server: App Server 1 (`stapp01`)  
+- Username: `anita`
+- Shell: Non-interactive (`/sbin/nologin`)
+- Server: App Server 3 (`stapp03`)
 
 ---
 
 ## Steps Performed
-1. Logged in to App Server 1 via SSH:
+- Logged in to App Server 3 via SSH
+- Created user `anita` with a non-interactive shell
+- Verified the user account using system records
 
-```bash
-ssh <username>@stapp01
-Created user rose with a non-interactive shell:
+---
 
-bash
-Copy code
-sudo useradd -s /sbin/nologin rose
-Verified the user was created:
+## Outcome
+Non-interactive user `anita` was successfully created on App Server 3 with the correct shell configuration.
 
-bash
-Copy code
-getent passwd rose
-Outcome
-User rose successfully created on App Server 1.
+---
 
-Shell set to /sbin/nologin for non-interactive access.
-
-User verified in the system via getent passwd rose.
-
-Key Learnings
-How to create a Linux user with a non-interactive shell.
-
-Understanding /sbin/nologin to restrict login for system users.
-
-Verifying user creation using getent passwd.
-
-Best practices for creating users for system tools like backup agents.
+## Key Learnings
+- Creating Linux users with restricted (non-interactive) shells
+- Purpose and usage of `/sbin/nologin`
+- Verifying user creation using system tools
+- Best practices for service and system-only user accounts
