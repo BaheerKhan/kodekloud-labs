@@ -14,4 +14,4 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 
 ### Azure
 - [SSH Key Pair (datacenter-kp)](azure-ssh-key-pair.md)
-- [Create Azure VM (xfusion-vm)](azure-ssh-key-pair)
+- [Create Azure VM (xfusion-vm)](azure-create-vm.md)
