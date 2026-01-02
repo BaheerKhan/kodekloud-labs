@@ -12,6 +12,7 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 - [Non-interactive User – rose](linux-rose-noninteractive-user.md)
 - [Temporary User – yousuf](linux-yousuf-temp-user.md)
 - [Git Repository – /opt/games.git](linux-git-setup.md)
+- [Disable SSH Root Login – App Servers](linux-disable-root-ssh.md)
 
 ### Azure
 - [SSH Key Pair (datacenter-kp)](azure-ssh-key-pair.md)
