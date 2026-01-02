@@ -1,25 +1,20 @@
-# Linux Git Installation on Storage Server
+# Git Installation on Storage Server
 
-**Objective:** Install Git on the Storage Server and create a Git repository for the new application project.
+## Objective
+Install Git on the Storage Server as requested by the Nautilus development team for a new application development project.
 
-**Requirements:**
+## Requirements
+- Use the `yum` package manager
+- Perform the installation on the **Storage Server**
 
-- Install Git using `yum` package manager.
-- Set up a bare Git repository named `/opt/games.git` on the Storage Server.
+## Steps
 
----
-
-## Add this lab file to the GitHub repo
-
+### 1. Log in to the Storage Server
 ```bash
-# Go to your KodeKloud labs repo
-cd ~/kodekloud-labs
-
-# Add the new lab file
-git add linux-git-setup.md
-
-# Commit changes
-git commit -m "Add Linux lab: Git installation and repository setup on Storage Server"
-
-# Push to GitHub
-git push origin main
+ssh <storage-server>
+### 2. Install Git using yum
+```bash
+sudo yum install -y git
+### 3. Verify installation
+```bash
+git --version
