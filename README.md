@@ -8,9 +8,9 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 - [AWS EC2 Key Pair – nautilus-kp](aws-key-pair)
 
 ### Linux
-- [Non-interactive User – anita](create_anita.md)
-- [Create temporary user 'yousuf' – App Server 3](linux-yousuf-temp-user.md)
-- [Linux Git Installation on Storage Server](linux-git-setup.md)
+- [Non-interactive User – rose](linux-rose-noninteractive-user.md)
+- [Temporary User – yousuf](linux-yousuf-temp-user.md)
+- [Git Repository – /opt/games.git](linux-git-setup.md)
 
 ### Azure
 - [SSH Key Pair (datacenter-kp)](azure-ssh-key-pair.md)
