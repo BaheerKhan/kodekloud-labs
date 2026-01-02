@@ -10,3 +10,7 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 ### Linux
 - [Create non-interactive user 'rose' – App Server 1](linux-rose)
 - [Create temporary user 'yousuf' – App Server 3](linux-yousuf)
+
+### Azure
+- [SSH Key Pair (datacenter-kp)](azure-ssh-key-pair.md)
+- [Create Azure VM (xfusion-vm)](azure-create-vm.md)
