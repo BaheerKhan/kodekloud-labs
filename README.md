@@ -8,7 +8,7 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 - [AWS EC2 Key Pair – nautilus-kp](aws-key-pair)
 
 ### Linux
-- [Non-interactive User – anita](linux-anita-user.md)
+- [Non-interactive User – anita](create_anita.md)
 - [Create temporary user 'yousuf' – App Server 3](create_users.sh)
 - [Linux Git Installation on Storage Server](linux-git-setup)
 
