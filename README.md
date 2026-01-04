@@ -18,6 +18,7 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 - [Grant Execute Permissions – xfusioncorp.sh](linux-executable-permissions-script.md)
 - [SELinux Installation & Disable – App Server 3](linux-selinux-disable.md)
 - [Custom Apache User – anita](linux-apache-user-anita.md)
+- [Group-Based Access Control – nautilus_admin_users](linux-group-nautilus-admin.md)
 
 ### Azure
 - [SSH Key Pair (datacenter-kp)](azure-ssh-key-pair.md)
