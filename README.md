@@ -14,7 +14,7 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 - [Temporary User – yousuf](linux-yousuf-temp-user.md)
 - [Git Repository – /opt/games.git](linux-git-setup.md)
 - [Disable SSH Root Login – App Servers](linux-disable-root-ssh.md)
-- [Grant Execute Permissions – xfusioncorp.sh](linux-script-execute-permissions.md)
+- [Grant Execute Permissions – xfusioncorp.sh](linux-executable-permissions-script.md)
 
 ### Azure
 - [SSH Key Pair (datacenter-kp)](azure-ssh-key-pair.md)
