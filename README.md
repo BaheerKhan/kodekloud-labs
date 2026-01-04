@@ -17,7 +17,8 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 - [Disable SSH Root Login – App Servers](linux-disable-root-ssh.md)
 - [Grant Execute Permissions – xfusioncorp.sh](linux-executable-permissions-script.md)
 - [SELinux Installation & Disable – App Server 3](linux-selinux-disable.md)
-  
+- [Custom Apache User – anita](linux-apache-user-anita.md)
+
 ### Azure
 - [SSH Key Pair (datacenter-kp)](azure-ssh-key-pair.md)
 - [Create Azure VM (xfusion-vm)](azure-create-vm.md)
