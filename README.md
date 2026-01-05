@@ -9,6 +9,7 @@ Hands-on DevOps labs completed on KodeKloud (AWS, Linux, CI/CD)
 - [AWS Subnet – xfusion-subnet](aws-xfusion-subnet.md)
 - [AWS Elastic IP Allocation – nautilus-eip](aws-elastic-ip-nautilus.md)
 - [AWS Volume – datacenter-volume](aws-gp3-volume.md)
+- [AWS EC2 Instance Creation – devops-ec2](aws-ec2-devops-instance.md)
 
 ### Linux
 - [Non-interactive User – rose](linux-rose-noninteractive-user.md)
